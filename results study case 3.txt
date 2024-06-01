@@ -1,0 +1,11 @@
+Suggested Answers for Study Case 3:
+
+Answer Number 1 poin a: 0.552
+Answer Number 1 poin b: 0.003
+Answer Number 1 poin c: 2.334
+Answer Number 2 poin a :current upper limit = 5.5; current lower limit = 5.25; and funds_rate = 5.33; the eff is inside target
+Answer Number 2 poin b: The last time Fed miss the target (over the target) = 2019-09-17 00:00:00; The Fed miss by 0.05 %
+What was the average daily miss between the beginning of 2006 and the end of 2007? = 0.051 %
+What was the average daily miss between the beginning of 2008 and December 15, 2008? = 0.224 %
+What was the average daily miss for the period from December 16, 2008, to the most current date available? = 0.063 %
+Since 2006, what was the largest single daily miss? = 1.33 %
