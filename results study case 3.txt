@@ -8,14 +8,12 @@ Answer Number 2 poin b: The last time Fed miss the target (over the target) = 20
 
 Reason:
 
-What happened in September 2019 was a surprising spike in short-term interest rates in the repo market, which is where banks borrow and lend reserves.expand_more This spike went above the Fed's target.
+What happened in September 2019 was a surprising spike in short-term interest rates in the repo market, which is where banks borrow and lend reserves. This spike went above the Fed's target. The reason for this wasn't the Fed missing its target, but a temporary shortage of cash in the financial system. Two main factors are believed to have contributed:
 
-The reason for this wasn't the Fed missing its target, but a temporary shortage of cash in the financial system. Two main factors are believed to have contributed:
+1. Large tax payments: September 16th was a deadline for quarterly corporate tax payments, which pulled a significant amount of cash out of the system.
+2. Treasury issuance: The government issuing new Treasury securities on the same day further drained available reserves.
 
-Large tax payments: September 16th was a deadline for quarterly corporate tax payments, which pulled a significant amount of cash out of the system.
-Treasury issuance: The government issuing new Treasury securities on the same day further drained available reserves.
-
-This sudden decrease in reserves caused a scramble for cash among banks, driving up the repo rate above the Fed's target.exclamation Economists also point to a possibly low level of reserves in the system at the time, which may have amplified the issue.
+This sudden decrease in reserves caused a scramble for cash among banks, driving up the repo rate above the Fed's target. Economists also point to a possibly low level of reserves in the system at the time, which may have amplified the issue.
 
 What was the average daily miss between the beginning of 2006 and the end of 2007? = 0.051 %
 What was the average daily miss between the beginning of 2008 and December 15, 2008? = 0.224 %
