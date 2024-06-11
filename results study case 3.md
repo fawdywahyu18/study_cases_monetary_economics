@@ -6,8 +6,8 @@
 3. Answer Number 1 poin c: 2.334
 
 ## Number 2
-a. Answer Number 2 poin a :current upper limit = 5.5; current lower limit = 5.25; and funds_rate = 5.33; the eff is inside target
-b. Answer Number 2 poin b: The last time Fed miss the target (over the target) = 2019-09-17 00:00:00; The Fed miss by 0.05 %
+a. Answer Number 2 poin a :current upper limit = 5.5; current lower limit = 5.25; and funds_rate = 5.33; the eff is inside target.
+b. Answer Number 2 poin b: The last time Fed miss the target (over the target) = 2019-09-17 00:00:00; The Fed miss by 0.05 %.
 
 Reason for poin b answer:
 Source from the official website of Fed: https://www.federalreserve.gov/econres/notes/feds-notes/what-happened-in-money-markets-in-september-2019-20200227.html
