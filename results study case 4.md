@@ -1,22 +1,18 @@
 # Study Case 4 Suggested Answers
 ## Number 1
-study case 4 number 1 point a inflation violation: DatetimeIndex(['2001-10-01', '2002-01-01', '2002-04-01', '2002-07-01',
-               '2002-10-01', '2003-07-01', '2003-10-01', '2004-01-01',
-               '2007-01-01', '2007-04-01', '2007-07-01', '2007-10-01',
+study case 4 number 1 point a inflation violation: DatetimeIndex(['2000-10-01', '2002-01-01', '2002-04-01', '2005-01-01',
+               '2005-04-01', '2005-07-01', '2005-10-01', '2006-01-01',
+               '2006-04-01', '2006-07-01', '2008-01-01', '2008-04-01',
                '2008-07-01', '2008-10-01', '2009-01-01', '2009-04-01',
-               '2009-07-01', '2009-10-01', '2010-01-01', '2010-04-01',
-               '2010-07-01', '2010-10-01', '2011-01-01', '2012-07-01',
-               '2012-10-01', '2013-01-01', '2013-04-01', '2013-07-01',
-               '2013-10-01', '2014-01-01', '2014-04-01', '2014-07-01',
-               '2014-10-01', '2015-01-01', '2015-04-01', '2015-07-01',
-               '2015-10-01', '2016-01-01', '2016-04-01', '2016-07-01',
-               '2016-10-01', '2017-01-01', '2017-04-01', '2017-07-01',
-               '2017-10-01', '2018-01-01', '2018-04-01', '2018-07-01',
-               '2018-10-01', '2019-01-01', '2019-04-01', '2019-07-01',
-               '2019-10-01', '2020-01-01', '2020-04-01', '2020-07-01',
-               '2020-10-01', '2021-01-01', '2021-04-01', '2021-07-01',
+               '2009-07-01', '2009-10-01', '2011-07-01', '2011-10-01',
+               '2013-04-01', '2013-07-01', '2013-10-01', '2014-01-01',
+               '2015-01-01', '2015-04-01', '2015-07-01', '2015-10-01',
+               '2016-01-01', '2016-04-01', '2016-07-01', '2016-10-01',
+               '2019-04-01', '2019-07-01', '2019-10-01', '2020-01-01',
+               '2020-04-01', '2020-07-01', '2020-10-01', '2021-07-01',
                '2021-10-01', '2022-01-01', '2022-04-01', '2022-07-01',
-               '2022-10-01', '2023-01-01', '2023-04-01', '2023-07-01'],
+               '2022-10-01', '2023-01-01', '2023-04-01', '2023-07-01',
+               '2023-10-01', '2024-01-01'],
               dtype='datetime64[ns]', name='observation_date', freq=None)
 
 study case 4 number 1 point a unemployment violation: DatetimeIndex(['2003-07-01', '2008-10-01', '2009-01-01', '2009-04-01',
@@ -29,16 +25,27 @@ study case 4 number 1 point a unemployment violation: DatetimeIndex(['2003-07-01
                '2021-01-01', '2021-04-01'],
               dtype='datetime64[ns]', name='observation_date', freq=None)
 
-study case 4 number 1 point b current violation: not_violated
+study case 4 number 1 point b current violation: violated
 
 study case 4 number 1 point c:
-Interpretation:
-Persistent Challenges: The data shows prolonged periods where the Fed struggled to meet either the inflation or unemployment mandate. Particularly notable are the periods during the early 2000s, the Great Recession (2007-2009), and the COVID-19 pandemic (2020 onwards). These periods were marked by significant economic turbulence, highlighting the difficulty of monetary policy during times of crisis.
-Overlapping Violations: Certain periods show overlapping violations of both mandates, such as Q4 2008 to Q1 2011 and Q3 2020 to Q2 2021. These overlap periods underscore the complexity of addressing multiple economic issues simultaneously, particularly during economic downturns when both inflation and unemployment rates can be problematic.
+Inflation gaps:
+The extensive list of dates for potential inflation gap violations indicates the difficulty of maintaining a stable inflation rate at the target of 2%. This could be due to:
+
+a. External Shocks: Events like oil price fluctuations, natural disasters, or supply chain disruptions can cause inflation spikes or dips outside the Fed's control.
+b. Trade-offs: Balancing inflation with unemployment can be a delicate act. Actions taken to curb inflation (raising interest rates) might lead to higher unemployment in the short term.
+c. Limited Foresight: Predicting inflation accurately is challenging. The Fed might react to past inflation data, and future events might impact inflation unexpectedly.
+
+Unemployment gaps:
+The dates for potential unemployment gap violations highlight the complexity of achieving maximum employment. Challenges include:
+
+a. Recessions: Economic downturns naturally lead to higher unemployment. The Fed might prioritize mitigating recessions even if it means exceeding the natural unemployment rate.
+b. Structural Unemployment: Changes in the economy can lead to skills mismatches between workers and available jobs. The Fed's monetary policy tools might not be effective in addressing these structural issues.
+c. Natural Rate Uncertainty: Estimating the natural rate of unemployment is imprecise. The Fed might unintentionally deviate from this target due to inaccurate estimates.
+
 Economic Shocks: The periods of violations often align with major economic shocks:
-	•	Early 2000s: Dot-com bubble burst and subsequent recession.
-	•	Great Recession (2007-2009): Financial crisis and global economic downturn.
-	•	COVID-19 Pandemic: Severe economic disruption caused by the global pandemic.
+a. Early 2000s: Dot-com bubble burst and subsequent recession.
+b. Great Recession (2007-2009): Financial crisis and global economic downturn.
+c. COVID-19 Pandemic: Severe economic disruption caused by the global pandemic.
 
 Challenges for Monetary Policymakers:
 1. Dual Mandate Complexity: The Fed’s dual mandate to achieve maximum employment and stable prices can be inherently conflicting. For instance, measures to curb inflation (e.g., raising interest rates) can slow down economic growth and increase unemployment, while measures to reduce unemployment (e.g., lowering interest rates) can spur inflation.
