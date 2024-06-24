@@ -50,7 +50,8 @@ model.fit(X, y)
 
 # Calculate the trend line and inflation gap
 df_merge['trend_inflation'] = model.predict(X)
-df_merge['inflation_gap'] = df_merge['pcectpi_change_yoy'] - df_merge['trend_inflation']
+df_merge['target_inflation'] = 2
+df_merge['inflation_gap'] = df_merge['pcectpi_change_yoy'] - df_merge['target_inflation']
 
 # Filter more than 2000 Q1
 df_merge_filter = df_merge[df_merge.index >= '2000-01-01']
@@ -108,6 +109,3 @@ correlation_yoy = df_merge2['nonborres_yoy'].corr(df_merge2['fedfunds_yoy'])
 
 print(f'study case 4 number 2 point b, mtm correlation: {np.round(correlation_mtm, 3)}')
 print(f'study case 4 number 2 point b, yoy correlation: {np.round(correlation_yoy, 3)}')
-
-
-
